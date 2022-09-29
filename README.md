@@ -35,5 +35,5 @@ $ docker build --build-arg UID=$UID --build-arg USER=$USER -t <IMAGE NAME>:<TAG>
 
 ## Docker run
 ```bash
-$ docker run -d -it -v $HOME:$HOME -v /public:/public -p <PORT NUMBER>:8888 --gpus "device=<DEVICE NUMBER>" --name <CONTAINER NAME> <IMAGE NAME>:<TAG>
+$ docker run -d -it -v $HOME:$HOME -p <PORT NUMBER>:8888 --gpus "device=<DEVICE NUMBER>" --name <CONTAINER NAME> <IMAGE NAME>:<TAG>
 ```
