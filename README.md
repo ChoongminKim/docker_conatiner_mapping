@@ -6,7 +6,7 @@ docker conatiner 생성시 Host pc USER 계정 생성 및 UID, GID Mapping
 * **필요시 변경해서 사용**
 ```txt
 # Docker Image와 Tag 설정
-FROM [IMAGE:TAG] 
+FROM <IMAGE NAME:TAG> 
 
 ARG USER=$USER
 ARG UID=$UID
